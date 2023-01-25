@@ -5,6 +5,7 @@ export function useTelegram() {
         tg.close()
     }
 
+    // Тыкаешь и появляется кнопка "continue"
     const onToggleButton = () => {
         if(tg.MainButton.isVisible) {
             tg.MainButton.hide();
