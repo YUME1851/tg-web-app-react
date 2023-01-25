@@ -8,15 +8,15 @@ function App() {
 
 
     useEffect(() => {
-        tg.ready(); //Сообщает о том, что приложение полностью проинициализировалось и его можно отрисовывать
-    }, [])
+        tg.ready();
+    }, []) //Сообщает о том, что приложение полностью проинициализировалось и его можно отрисовывать
 
-  return (
-    <div className="App">
-        <Header/>
-        <button onClick={onToggleButton}>Жмяк-с!</button>
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <button onClick={onToggleButton}>Жмяк-с!</button>
+        </div>
+    );
 }
 
 export default App;
